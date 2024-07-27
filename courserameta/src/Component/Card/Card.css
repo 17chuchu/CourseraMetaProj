@@ -1,0 +1,9 @@
+.card {
+    background-color: var(--secondary-cream);
+    color: var(--secondary-black);
+}
+
+
+h4 {
+    font-size: small;
+}

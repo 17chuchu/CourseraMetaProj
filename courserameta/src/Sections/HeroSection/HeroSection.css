@@ -1,0 +1,26 @@
+.heroSection {
+    background-color: var(--primary-green);
+  }
+  
+.heroSection h1 {
+    color: var(--secondary-gray);
+}
+
+.heroSection h2 {
+    font-weight: 600;
+}
+
+.heroSection h3 {
+    font-size: 15px;
+}
+
+.heroSection img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.heroSection button {
+    background-color: var(--primary-yellow);
+    color: var(--secondary-black)
+}

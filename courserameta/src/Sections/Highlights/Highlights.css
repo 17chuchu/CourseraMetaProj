@@ -1,0 +1,14 @@
+.highlightsSection {
+  background-color: var(--secondary-gray);
+}
+
+.highlightsSection .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-row-gap: 10px;
+  grid-column-gap: 20px;
+}
+  
+.highlightsSection h1 {
+color: var(--secondary-black)
+}

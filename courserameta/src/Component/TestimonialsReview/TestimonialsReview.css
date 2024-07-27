@@ -1,0 +1,14 @@
+.testimonialsReview {
+    color: var(--secondary-black);
+    background-color: var(--secondary-gray);
+}
+
+.testimonialsReview .rating {
+    font-size: large;
+    font-weight: 700;
+}
+
+.testimonialsReview .name {
+    font-size: large;
+    font-weight: 500;
+}

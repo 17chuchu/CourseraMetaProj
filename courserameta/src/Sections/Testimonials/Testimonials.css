@@ -1,0 +1,19 @@
+.testimonialsSection {
+    background-color: var(--primary-green);
+}
+
+.testimonialsSection .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    margin: auto;
+}
+
+.testimonialsSection img{
+    width: 50%;
+}
+
+.testimonialsSection h1 {
+    color: var(--secondary-gray)
+}
