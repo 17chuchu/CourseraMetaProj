@@ -1,0 +1,30 @@
+.BookingForm .closeButtonPosition {
+    position: absolute;
+    top: 1.2em;
+    left: 16px;
+}
+
+.BookingForm .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+}
+
+.BookingForm h3 {
+    font-size: 15px;
+}
+
+.BookingForm h3 {
+    font-size: 15px;
+}
+
+.BookingForm .clientInput button {
+    background-color: var(--secondary-black);
+    color: var(--secondary-gray)
+}
+
+.BookingForm .css-gmuwbf button {
+    background-color: var(--primary-green);
+    color: var(--secondary-gray)
+}

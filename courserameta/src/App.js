@@ -1,4 +1,5 @@
 import './App.css';
+
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Header from './Sections/Header'
 import { ChakraProvider } from "@chakra-ui/react";
@@ -6,7 +7,7 @@ import Highlights from './Sections/Highlights/Highlights'
 import MetaTags from './Component/MetaTags'
 import HeroSection from './Sections/HeroSection/HeroSection'
 import Testimonials from './Sections/Testimonials/Testimonials'
-import BookingPage  from './Sections/BookingPage /BookingPage '
+import BookingForm from './Sections/BookingForm/BookingForm'
 import About from './Sections/About/About'
 import Footer from './Sections/Footer/Footer'
 
@@ -27,7 +28,7 @@ function App() {
               <Footer/>
             </main>
           }></Route>
-          <Route path="/booking" element={<BookingPage />}></Route>
+          <Route path="/booking" element={<BookingForm/>}></Route>
         </Routes>
         </BrowserRouter>
       </ChakraProvider>
