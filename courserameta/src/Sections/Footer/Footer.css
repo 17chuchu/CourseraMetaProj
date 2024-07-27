@@ -1,0 +1,20 @@
+.footerSection {
+    background-color: var(--primary-green);
+}
+.footerSection li {
+    list-style-type: ''
+}
+
+.footerSection img{
+    height: 180px;
+}
+
+.footerSection a{
+    font-size: small;
+    color: var(--secondary-gray);
+}
+
+.footerSection h3{
+    font-weight: 500;
+    color: var(--secondary-cream)
+}

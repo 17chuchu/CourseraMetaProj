@@ -21,7 +21,7 @@ const HeroSection = () => {
                 <Text as="h3">
                 Lorem ipsum dolor sit amet. Sed doloribus esse ab impedit totam qui placeat facilis cum amet officia? Quo magnam expedita est excepturi nesciunt a aperiam natus in iusto sint At fugiat doloremque aut ducimus deleniti aut nihil corrupti.
                 </Text>
-                <Button size='sm' marginRight='auto' marginTop='20px'>
+                <Button size='sm' marginRight='auto' marginTop='20px' onClick={event => window.location.href='/booking'}>
                     Reserve Table
                 </Button>
             </VStack>

@@ -1,0 +1,27 @@
+.aboutSection {
+    background-color: var(--secondary-cream);
+  }
+  
+.aboutSection h1 {
+    color: var(--primary-green);
+}
+
+.aboutSection h2 {
+    font-weight: 600;
+}
+
+.aboutSection h3 {
+    font-size: 15px;
+    margin-top: 2em;
+}
+
+.aboutSection img {
+    width: 30vp;
+    height: 30vw;
+    object-fit: cover;
+}
+
+.aboutSection button {
+    background-color: var(--primary-yellow);
+    color: var(--secondary-black)
+}
