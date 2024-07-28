@@ -28,3 +28,8 @@
     background-color: var(--primary-green);
     color: var(--secondary-gray)
 }
+
+.BookingFormDateError .rs-picker div{
+    border-color: red;
+    border-width: 0.1em;
+}
