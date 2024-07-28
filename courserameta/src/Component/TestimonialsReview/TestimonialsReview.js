@@ -8,7 +8,7 @@ const TestimonialsReview = ({ name, rating, star, profileimg }) => {
 
     function getStar(n) {
         var starList = [];
-        for (var i = 0; i <= n; i++) {
+        for (var i = 0; i < n; i++) {
             starList.push(<FontAwesomeIcon icon={faStar} size="1x"/>);
         }
         return starList;

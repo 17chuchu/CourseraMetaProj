@@ -12,7 +12,7 @@ const HeroSection = () => {
         <Section verticalSpacing={1}>
         <HStack spacing={8} justifyContent="space-between" alignItems="center">
             <VStack spacing={2} alignItems="left">
-                <Heading as="h1" id="projects-section">
+                <Heading as="h1">
                     Little Lemon
                 </Heading>
                 <Text as="h2">

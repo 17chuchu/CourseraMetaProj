@@ -35,7 +35,7 @@ const Testimonials = () => {
   return (
     <div class='testimonialsSection'>
         <Section>
-        <Heading as="h1" id="projects-section" margin='auto'>
+        <Heading as="h1" margin='auto'>
           Testimonials
         </Heading>
         <div class="container">

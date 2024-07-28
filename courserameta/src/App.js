@@ -12,9 +12,9 @@ import About from './Sections/About/About'
 import Footer from './Sections/Footer/Footer'
 
 function App() {
-  return (
+  return [
+    <MetaTags/>,
     <div>
-      <MetaTags/>
       <ChakraProvider>
         <BrowserRouter>
         <Routes>
@@ -33,7 +33,7 @@ function App() {
         </BrowserRouter>
       </ChakraProvider>
     </div>
-  );
+  ];
 }
 
 export default App;

@@ -32,7 +32,7 @@ const Highlights = () => {
   return (
     <div class='highlightsSection'>
         <Section>
-        <Heading as="h1" id="projects-section">
+        <Heading as="h1">
           Specials
         </Heading>
         <div class="container">
